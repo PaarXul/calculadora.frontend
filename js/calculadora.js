@@ -1,20 +1,10 @@
-// operaciones de la calculadora
-function suma(a, b) {
-    return a + b;
-}
+const pantalla = document.getElementById("resultado");
+const btn1 = document.querySelectorAll(".btn");
 
-function resta(a, b) {
-    return a - b;
-}
+const btnArray = btn1.forEach((btn) => {
+  btn.addEventListener("click", (e) => {
 
-function multiplicacion(a, b) {
-    return a * b;
-}
+    pantalla.value = pantalla.value + e.target.value;
 
-function division(a, b) {
-    return a / b;
-}
-
-function calculadora() {
-  
-}
+  });
+});

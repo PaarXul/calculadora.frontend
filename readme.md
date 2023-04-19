@@ -26,3 +26,6 @@
 * Gian Parra
   
 #### Copyrigth 2023
+
+[Proyecto en Linea](https://paarxul.github.io/calculadora.frontend/calculadora.html)
+[Repositorio](https://github.com/PaarXul/calculadora.frontend)

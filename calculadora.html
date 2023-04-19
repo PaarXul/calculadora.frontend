@@ -14,190 +14,83 @@
 </head>
 
 <body>
-  <div class="mb-3 card text-center">
+  <div class="titulo mb-3 text-center">
     <h1>Calculadora de operaciones básicas - Sprint M2 </h1>
   </div>
 
-  <!--calculadora Casio de operaciones básicas con Bootstrap-->
-
-  <!-- <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <div class="card">
-          <div class="card-header">
-            <h2>Calculadora de operaciones básicas</h2>
-          </div>
-
-          <div class="card-body">
-           
-            <div class="row">
-              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="input-group mb-3">
-                      <input type="text" class="form-control" id="resultado" placeholder="Resultado" aria-label=""
-                        aria-describedby="basic-addon2" disabled>
-
-                      <div class="input-group-append">
-                        <span class="input-group-text" id="basic-addon2">=</span>
-                      </div>
-                    </div>
-                    <div class="label-group-closed"></div>
-                  </div>
-                </div>
-                
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <div class="row">
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn7">7</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn8">8</button>
-
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn9">9</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-danger" id="btnDiv">/</button>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn4">4</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn5">5</button>
-
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn6">6</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-danger" id="btnPor">X</button>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn1">1</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn2">2</button>
-
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn3">3</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-danger" id="btnRes">-</button>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-success" id="btn0">0</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-secondary" id="btnIgual">=</button>
-
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-secondary" id="btnC">C</button>
-                      </div>
-                      <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
-                        <button type="button" class="btn btn-danger" id="btnMas">+</button>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-
-              </div>
-
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </div> 
-  -->
-
-
   <div class="container">
-    <div class="card" style="width: 18rem;">
+    <div class="card">
       <div class="card-body">
         <h5 class="card-title">CASIO</h5>
         <div class="row">
           <div class="input-group mb-3">
-            <input type="text" class="form-control" id="resultado" placeholder="Resultado" aria-label=""
-              aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <span class="input-group-text" id="operador">=</span>
-            </div>
+            <input type="text" class="form-control" id="resultado" placeholder="0" aria-label=""
+              aria-describedby="basic-addon2" disabled>
           </div>
         </div>
         <div class="row mb-2">
 
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn7" value="7">7</button>
+            <button type="button" class="btn " id="btn7" value="7">7</button>
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn8" value="8">8</button>
+            <button type="button" class="btn" id="btn8" value="8">8</button>
 
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn9" value="9">9</button>
+            <button type="button" class="btn" id="btn9" value="9">9</button>
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-danger rounded-circle" id="btnDiv" value="/">/</button>
+            <button type="button" class="btn" id="btnDiv" value="/">/</button>
           </div>
         </div>
         <div class="row mb-2">
 
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn4" value="4">4</button>
+            <button type="button" class="btn" id="btn4" value="4">4</button>
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn5" value="5">5</button>
+            <button type="button" class="btn" id="btn5" value="5">5</button>
 
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn6" value="6">6</button>
+            <button type="button" class="btn" id="btn6" value="6">6</button>
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-danger rounded-circle" id="btnPor" value="*">X</button>
+            <button type="button" class="btn operador" id="btnPor" value="*">X</button>
           </div>
         </div>
         <div class="row mb-2">
 
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn1" value="1">1</button>
+            <button type="button" class="btn" id="btn1" value="1">1</button>
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn2" value="2">2</button>
+            <button type="button" class="btn" id="btn2" value="2">2</button>
 
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-success rounded-circle" id="btn3" value="3">3</button>
+            <button type="button" class="btn" id="btn3" value="3">3</button>
           </div>
 
           <div class="col-sm-3">
-            <button type="button" class="btn btn-danger rounded-circle" id="btnmenos" value="-">-</button>
+            <button type="button" class="btn operador" id="btnmenos" value="-">-</button>
           </div>
         </div>
         <div class="row mb-2">
 
           <div class="col-sm-3 ">
-            <button type="button" class="btn btn-success rounded-circle" id="btn0" value="0">0</button>
+            <button type="button" class="btn  operador" id="btnc" value="">C</button>
           </div>
 
-          <div class="col-sm-6">
-            <button type="button" class="btn btn-primary rounded-pill" id="btn9" value="=">=</button>
+          <div class="col-sm-3">
+            <button type="button" class="btn" id="btn0" value="0">0</button>
           </div>
           <div class="col-sm-3">
-            <button type="button" class="btn btn-danger rounded-circle" id="btnMas" value="+">+</button>
+            <button type="button" class="btn operador" id="btnigual" value="=">=</button>
+          </div>
+          <div class="col-sm-3">
+            <button type="button" class="btn operador" id="btnMas" value="+">+</button>
           </div>
         </div>
       </div>
